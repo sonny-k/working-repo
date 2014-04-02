@@ -23,7 +23,8 @@
 window.onload = function(){
 	/*Observe that the JQuery version is 2.X so this will not work with IE 6,7,8*/
 	var $=jQuery;	
-	new canvasCommon.canvasCommonClass();
+	var animation = new canvasCommon.canvasCommonClass();
+	animation.startAnimation(0, "main-canvas");
 };
 </script>
 
