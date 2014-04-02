@@ -1,0 +1,11 @@
+/*Target Mobile First*/
+
+/*Smartphones, portrait, using max-width;320px converted into EM */
+@media only screen
+and (max-device-width : 20em){
+	#main-canvas{
+		width : 16em;
+		height : auto;
+		border : 1px solid #ff0000;
+	}
+}
